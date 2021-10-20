@@ -1,0 +1,210 @@
+html,
+body {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+#page {
+    width: 100%;
+}
+#page .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#page #section_header_2_dark {
+    height: 100px;
+    background: #333;
+}
+#page #section_header_2_dark .navbar-header {
+    float: left;
+    width: 30%;
+    padding-top: 25px;
+}
+#page #section_header_2_dark .pix_nav_logo {
+    width: 165px;
+}
+#page #section_header_2_dark .collapse.navbar-collapse {
+    float: right;
+    width: 70%;
+    padding-top: 25px;
+}
+
+#page #section_header_2_dark .collapse.navbar-collapse ul li {
+    list-style-type: none;
+    color: #f1c232;
+    float: right;
+    clear: left;
+    font-size: 150%;
+    padding-left: 35px;
+}
+#page #section_header_2_dark .collapse.navbar-collapse ul li a {
+    color: #cccc;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#page #section_pix_4 {
+    height: 885px;
+}
+#page #section_pix_4 .pix_video_div {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+#page #section_pix_4 .creative_header video {
+    width: 100%;
+}
+#page #section_pix_4 .section_wrapper {
+    position: absolute;
+    width: 100%;
+    height: 885px;
+    z-index: 2;
+}
+#page #section_pix_4 .section_wrapper .container {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: white;
+}
+#page #section_pix_4 .section_wrapper .context_style .title_style {
+    color: white;
+    font-size: 300%;
+    font-weight: bolder;
+    margin-top: 450px;
+}
+#page #section_pix_4 .section_wrapper .context_style .email_subscribe {
+  width: 50%;
+    background: #00000066;
+    margin: auto;
+    padding: 10px;
+
+}
+#page #section_pix_4 .section_wrapper .context_style .email_subscribe #email {
+    width: 45%;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+#page #section_pix_4 .section_wrapper .context_style .email_subscribe #subscribe_btn_1 {
+    width: 32%;
+    height: 50px;
+    background: #f1c232;
+    font-size: 150%;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+#section_university_5 {
+    margin-top: 500px;
+    font-size: 15px;
+   background: #7CC576;
+}
+#section_university_5 .container .alpha {
+    width: 40%;
+    float: left;
+    overflow: auto;
+}
+#section_university_5 .container .omega {
+    float: right;
+    border: 1px solid black;
+    height: 500px;
+    background:#ebeaea;
+    padding: 10px;
+}
+
+.omega .pix_text {
+    margin-bottom: 20px;
+    padding: 15px;
+    color: gray;
+    display: block;
+    font-size: 15px;
+}
+.omega .texts{
+font-size: 16px;
+
+}
+#section_university_5 .container .alpha .icon_st {
+    width: 30%;
+    float: left;
+    clear: left;
+    margin-left: 100px;
+}
+
+#section_ecourse_7 .sixteen .columns .bg_foot {
+    font-size: 15px;
+    margin-top: 200px;
+}
+#section_ecourse_7 .alpha {
+    float: left;
+    width: 67%;
+    padding-top: 50px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    width: 5px;
+    height: 50px;
+}
+#section_ecourse_7 .omega {
+    float: right;
+    width: 33%;
+    padding-top: 25px;
+}
+#section_ecourse_7 .omega ul li {
+    list-style-type: none;
+    float: right;
+    clear: left;
+    font-size: 150%;
+    padding-left: 35px;
+}
+#section_ecourse_7 .omega ul li a {
+    color: #cccc;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.rights_st{
+    color: #b6b6b6;
+}
+.pixfort_st{
+    color: #947bb5;
+    font-weight: bold;
+}
+#contact_form input{
+    width: 90%;
+    border: 3px solid #dedede;
+
+}
+#contact_form .send_btn button{
+    width: 100%;
+    background: #7CC576;
+    color: white;
+}
+#section_ecourse_7 .container .omega .pix_text{
+    color: #c7c6d6;
+}
+#section_ecourse_7 .container .alpha .rights_st{
+    color: #b6b6b6;
+    float: left;
+    clear: right;
+
+}
+#section_ecourse_7 .container .alpha .pixfort_st{
+    color: #947bb5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#page .pixfort_ecourse_8 .foot_st  {
+    display: inline-block;
+
+    background: #ebeaea;
+    width: 100%;
+    height: 125px;
+    float: left;
